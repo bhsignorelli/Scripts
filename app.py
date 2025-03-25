@@ -3,6 +3,7 @@ import pandas as pd
 import os
 import shutil
 from datetime import datetime
+import requeriments.txt
 
 def dividir_planilha(df, linhas_por_arquivo):
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
